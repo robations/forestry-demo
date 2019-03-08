@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _locations/*
+  label: Locations
+  create: documents
+  match: "**/*"
+  templates:
+  - default
 - type: heading
   label: Content
 - type: jekyll-posts
