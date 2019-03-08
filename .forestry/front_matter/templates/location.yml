@@ -1,7 +1,6 @@
 ---
 label: location
 hide_body: false
-display_field: name
 fields:
 - type: text
   label: Template Key
