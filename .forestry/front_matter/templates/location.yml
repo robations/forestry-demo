@@ -1,0 +1,32 @@
+---
+label: location
+hide_body: false
+display_field: name
+fields:
+- type: text
+  label: Template Key
+  name: templateKey
+  hidden: true
+  config:
+    required: true
+- type: text
+  name: name
+  label: Name
+  description: Name or short address of the property location
+  config:
+    required: true
+- type: text
+  name: description
+  label: Description
+  description: Used mainly for meta description
+- type: text
+  name: postcode
+  label: Postcode
+  config:
+    required: true
+- type: text
+  name: telephone
+  label: Telephone
+- type: text
+  name: email
+  label: Email
